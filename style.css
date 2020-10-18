@@ -5,7 +5,7 @@ html,body{
     background-color: #E5F0FF;
 }
 ul{
-    padding: 0;
+    padding: 0 0 0 0;
     list-style-type: none;
     text-align: center;
     font-size: 1.5rem;
