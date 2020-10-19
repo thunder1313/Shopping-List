@@ -7,6 +7,9 @@ const createListElement = () =>{
     li.appendChild(document.createTextNode(input.value)); //create text node with text from input and attaches it to li
     ul.appendChild(li); // atach list element with text node to the unordered list
     input.value = ""; // clear input field
+    li.addEventListener('click', () =>{
+        li.classList.toggle('done');
+    })
 }
 const isEnterClicked = (kC) =>{
     return kC === 13;

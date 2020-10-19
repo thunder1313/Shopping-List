@@ -5,14 +5,17 @@ html,body{
     background-color: #E5F0FF;
 }
 ul{
-    padding: 0 0 0 0;
+    padding: 0;
     list-style-type: none;
     text-align: center;
     font-size: 1.5rem;
-    color: #002D6D;
+    color: #002D6D;k
 }
 li{
-    padding: 10px 0;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    border-bottom: #002D6D dashed 2px;
+    text-transform: capitalize;
 }
 header{
     padding: 10px 0 30px 0;
@@ -35,6 +38,9 @@ input{
     font-size: 1rem;
     color: #F1F2F2;
 }
+.buttonbox{
+    padding: 0 0 20px 0;
+}
 
 .centered{
     display: flex;
@@ -44,4 +50,7 @@ input{
 
 .uppercase{
     text-transform: uppercase;
+}
+.done{
+    text-decoration: line-through;
 }
