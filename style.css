@@ -54,3 +54,7 @@ input{
 .done{
     text-decoration: line-through;
 }
+
+.exp{
+    margin: 0 0 0 50px;
+}
